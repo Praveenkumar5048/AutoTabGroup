@@ -1,0 +1,27 @@
+{
+    "name": "Tab Organizer",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Automatically groups tabs by website and assigns colors.",
+    "permissions": [
+      "tabs",
+      "tabGroups",
+      "webRequest"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "icons": {
+      "128": "icon.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon.png"
+      }
+    }
+  }
+  
